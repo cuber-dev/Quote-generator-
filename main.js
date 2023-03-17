@@ -9,7 +9,6 @@ async function makeRequest(){
    try {
      let response = await fetch(url);
      let data = await response.json();
-     console.log(data);
      quoteText.innerText = data.content;
      author.innerText = '-' + data.author;
    } catch (e) {
