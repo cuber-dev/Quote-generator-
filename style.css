@@ -55,10 +55,16 @@ body {
   background: #EDEDED;
   border-radius: 0.2rem;
 }
+.container #quoteBox #copyLabel,
 .container #author{
   text-align: right;
-  opacity: 0.7;
+  display: block;
+  margin-bottom: 1rem;
   font-size: 13px;
+  opacity: 0.7;
+}
+.container #author{
+  padding-right: 1rem
 }
 .container #generateBtn{
   border: 1px solid #000000;
