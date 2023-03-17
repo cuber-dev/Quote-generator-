@@ -7,6 +7,7 @@ body {
                       #3A2B3D
   );
   min-height: 100vh;
+  user-select: none;
 }
 *{
   margin: 0;
@@ -66,10 +67,31 @@ body {
   padding: 8px;
   margin-top: 0.5rem;
   transition: 200ms all linear ;
+  cursor: pointer;
 }
-.container #generateBtn:active,
-.container #generateBtn:hover,
-.container #generateBtn:focus{
+
+.container #generateBtn:active{
   background: #000000;
   color: white;
+}
+
+.copy{
+  position: fixed;
+  bottom: -100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background:  #827C9E;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  animation: popUp 3s ease-in-out 1;
+}
+
+@keyframes popUp{
+  0%,100%{
+    bottom: -100%;
+  }
+  10%,80%{
+    bottom: 3rem;
+  }
 }
