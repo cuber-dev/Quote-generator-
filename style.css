@@ -67,7 +67,9 @@ body {
   margin-top: 0.5rem;
   transition: 200ms all linear ;
 }
-.container #generateBtn:active{
+.container #generateBtn:active,
+.container #generateBtn:hover,
+.container #generateBtn:focus{
   background: #000000;
   color: white;
 }
