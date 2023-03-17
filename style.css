@@ -63,8 +63,9 @@ body {
   border: 1px solid #000000;
   border-radius: 0.2rem;
   background: none;
-  padding: 5px;
+  padding: 8px;
   margin-top: 0.5rem;
+  transition: 200ms all linear ;
 }
 .container #generateBtn:active{
   background: #000000;
