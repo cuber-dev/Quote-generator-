@@ -1,0 +1,66 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  background-image : linear-gradient(
+                      to right, 
+                      #827C9E,
+                      #3A2B3D
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  }
+
+
+.container h1{
+  font-size: 30px;
+  background: #3A2B3D;
+  padding: 0.5rem;
+  color: white;
+  border-radius: 0.3rem;
+  width: max;
+  margin: 0.5rem 0;
+
+}
+.container #quoteBox{
+  border-radius: 0.2rem;
+  margin: 1.5rem 0;
+  max-width: 300px;
+  background: white;
+  padding: 0.6rem;
+  border-radius: .5rem;
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.15),
+              -5px -5px 15px rgba(0,0,0,0.15);
+  line-height: 25px;
+
+}
+.container #quoteText{
+  padding: .5rem;
+  background: #EDEDED;
+  border-radius: 0.2rem;
+}
+.container #generateBtn{
+  border: 1px solid #000000;
+  border-radius: 0.2rem;
+  background: none;
+  padding: 5px;
+  margin-top: 0.5rem;
+}
+.container #generateBtn:active{
+  background: #000000;
+  color: white;
+}
