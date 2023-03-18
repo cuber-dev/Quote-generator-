@@ -62,9 +62,15 @@ body {
   margin-bottom: 1rem;
   font-size: 13px;
   opacity: 0.7;
+  cursor: pointer;
+  background: none;
 }
 .container #author{
   padding-right: 1rem
+}
+.container #quoteBox #copyLabel:active,
+.container #author:active{
+  background: none;
 }
 .container #generateBtn{
   border: 1px solid #000000;
